@@ -1,0 +1,207 @@
+/***************************** 网页外面整体css样式 *&**********************/
+.crm_main{
+    /*position: fixed;*/
+    width:100%;
+    overflow-x: hidden;
+    min-height:800px;
+}
+
+.crm_main_content{
+    height:100%;
+}
+
+/********************************* 网页导航部分 *************************/
+.my_banner{
+    background:#121212;
+    width:100%;
+    height:80px;
+}
+
+.my_logo{
+    width:200px;
+    height:80px;
+}
+
+.my_userinfo{
+    padding-top:20px;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.my_userimg {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.welcome{
+    color:darkgray;
+}
+
+.logout{
+    color:lightgray;
+}
+.logout:hover{
+    color:white;
+}
+
+/*****************************主体内容布局************************/
+.crm_main_content_body{
+    height: 100%;
+    min-height: 800px;
+}
+
+/**************************左侧菜单栏css*********************************/
+.my_left_menu{
+    width:220px;
+    height:100%;
+    position: absolute;
+    background:#121212;
+    padding-top:30px;
+    min-height: 800px;
+}
+
+.my_left_menu ul,.my_left_menu.li{
+    padding:0px;
+    margin:0px;
+    width:220px;
+}
+
+.my_level_1>li>a{
+    height:46px;
+    line-height: 46px;
+    margin-left:28px;
+    width:100%;
+    display: block;
+}
+
+.my_level_1>li:hover, .my_level_2{
+    background:#000;
+}
+
+
+.my_level_2>li>a{
+    height:32px;
+    display: inline-block;
+    line-height: 32px;
+    margin-left:53px;
+}
+
+.my_men_icon{
+    margin-right:6px;
+}
+
+.my_level_2{
+    display: none;
+}
+
+
+/* a标签样式设置 */
+.my_left_menu a{
+    text-decoration: none;
+    color: #a7b1c2;
+    position: relative;
+}
+
+.my_left_menu a:hover{
+    color:white;
+}
+
+.my_arrow{
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.my_li_active{
+    background:#000;
+}
+
+
+
+/************************ 右侧的主题内容部分 *************************/
+
+.my_main_con{
+    padding-left:220px;
+    width:100%;
+    min-height: 800px;
+    background:#121212;
+}
+
+.my_main_wrapper{
+    background:#F3F3F4;
+    min-height:800px;
+}
+
+
+
+/*****************内容部分****************/
+
+.con_header{
+    height:80px;
+    border-bottom: 1px solid #e7eaec !important;
+    color:#6a788d;
+}
+
+
+.cont_title {
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+.cont_bread_title{
+    margin-left: 5px;
+}
+
+
+
+/***********************常用的组件******************************/
+.my_panel{
+    color:#6B788D;
+    background: white;
+    margin:10px;
+}
+
+.my_pan_top{
+    height: 48px;
+    line-height: 48px;
+    border-top: solid 3px #E7EAEC;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.pan_title{
+    margin-left:20px;
+}
+
+.pan_arrow{
+    font-size:20px;
+    font-weight:600;
+    margin-right:20px;
+    color:#C7C7C7;
+}
+
+.my_panel_body {
+    width: 100%;
+    display: none;
+    border-top: solid 1px #E7EAEC;
+}
+
+
+
+/***********用户信息**********/
+.artic_cont{
+    padding:20px;
+}
+
+.artic_userInfo{
+    width:50px;
+    height:50px;
+    maring:0 auto;
+}
+
+.artic_user_name{
+    font-weight:700;
+    font-size:15px;
+    color:#6B788D;
+}
